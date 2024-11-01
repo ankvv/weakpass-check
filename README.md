@@ -1,6 +1,12 @@
 # weakpass-check
 This Python program interacts with the Weakpass API to manage password hashes. It allows users to search for hashes, retrieve hash-password pairs based on prefixes, and get a list of available wordlists.
 
+## ⭐ Like this project?
+
+If you find it helpful, please give it a star! ⭐️ It helps others discover this project and motivates me to keep improving it.
+
+### 🌟 Current Stars: ![GitHub stars](https://img.shields.io/github/stars/ankvv/weakpass-check?style=social)
+
 ## Features
 
 - **Search for a Hash**: Look up a specific hash or a list of hashes from a file.
@@ -69,9 +75,3 @@ General network errors
 ### 6. Contributions
 
 Contributions are welcome! Please fork the repository and submit a pull request.
-
-## ⭐ Like this project?
-
-If you find it helpful, please give it a star! ⭐️ It helps others discover this project and motivates me to keep improving it.
-
-### 🌟 Current Stars: ![GitHub stars](https://img.shields.io/github/stars/ankvv/weakpass-check?style=social)
