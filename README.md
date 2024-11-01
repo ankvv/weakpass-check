@@ -20,38 +20,38 @@ You can run this program from the command line. Below are the available commands
 
 To search for a single hash:
 ```bash
-python weakpass_api.py search <hash>
+python weakpass-check.py search <hash>
 ```
 To search for hashes from a file (one hash per line):
 ```bash
-python weakpass_api.py search --file <file_path>
+python weakpass-check.py search --file <file_path>
 ```
 ### 2. Retrieve Hash Ranges
 
 To retrieve hash-password pairs based on a prefix:
 ```bash
-python weakpass_api.py range <prefix> [--filter {hash,pass}] [--type {md5,ntlm,sha1,sha256}]
+python weakpass-check.py range <prefix> [--filter {hash,pass}] [--type {md5,ntlm,sha1,sha256}]
 ```
 ### 3. List Available Wordlists
 
 To get a list of available wordlists:
 ```bash
-python weakpass_api.py wordlists
+python weakpass-check.py wordlists
 ```
 ## Example
 
 # Search for a specific hash
 ```bash
-python weakpass_api.py search 5f4dcc3b5aa765d61d8327deb882cf99
+python weakpass-check.py search 5f4dcc3b5aa765d61d8327deb882cf99
 
 # Search for hashes listed in a file
-python weakpass_api.py search --file hashes.txt
+python weakpass-check.py search --file hashes.txt
 
 # Retrieve hash-password pairs for a prefix
-python weakpass_api.py range a1b2c3
+python weakpass-check.py range a1b2c3
 
 # List available wordlists
-python weakpass_api.py wordlists
+python weakpass-check.py wordlists
 ```
 
 ## Error Handling
