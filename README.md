@@ -22,7 +22,7 @@ To search for a single hash:
 ```bash
 python weakpass_api.py search <hash>
 
-o search for hashes from a file (one hash per line):
+To search for hashes from a file (one hash per line):
 '''bash
 python weakpass_api.py search --file <file_path>
 
