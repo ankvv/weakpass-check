@@ -41,7 +41,7 @@ To get a list of available wordlists:
 '''bash
 python weakpass_api.py wordlists
 
-### 4. Example
+## Example
 
 '''bash
 # Search for a specific hash
@@ -56,7 +56,7 @@ python weakpass_api.py range a1b2c3
 # List available wordlists
 python weakpass_api.py wordlists
 
-### 5. Error Handling
+## Error Handling
 
 The program includes basic error handling for HTTP requests. It will return meaningful messages for common issues, such as:
 
