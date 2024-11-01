@@ -20,7 +20,7 @@ You can run this program from the command line. Below are the available commands
 
 To search for a single hash:
 ```bash
-python weakpass_api.py search <hash>
+python weakpass_api.py search <hash>'''
 
 
 To search for hashes from a file (one hash per line):
