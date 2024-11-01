@@ -44,14 +44,17 @@ python weakpass-check.py wordlists
 ```bash
 # Searching for a single hash
 python weakpass-check.py search 5f4dcc3b5aa765d61d8327deb882cf99
-
+```
 # Search for hashes listed in a file
+```bash
 python weakpass-check.py search --file hashes.txt
-
+```
 # Retrieve hash-password pairs for a prefix
+```bash
 python weakpass-check.py range a1b2c3
-
+```
 # List available wordlists
+```bash
 python weakpass-check.py wordlists
 ```
 
@@ -59,8 +62,8 @@ python weakpass-check.py wordlists
 
 The program includes basic error handling for HTTP requests. It will return meaningful messages for common issues, such as:
 
-404: No data found
-500: Server error
+404: No data found<br>
+500: Server error<br>
 General network errors
 
 ### 6. Contributions
