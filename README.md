@@ -69,3 +69,9 @@ General network errors
 ### 6. Contributions
 
 Contributions are welcome! Please fork the repository and submit a pull request.
+
+## ⭐ Like this project?
+
+If you find it helpful, please give it a star! ⭐️ It helps others discover this project and motivates me to keep improving it.
+
+### 🌟 Current Stars: ![GitHub stars](https://img.shields.io/github/stars/ankvv/weakpass-check?style=social)
