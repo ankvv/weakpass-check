@@ -42,6 +42,7 @@ python weakpass-check.py wordlists
 
 # Search for a specific hash
 ```bash
+# Searching for a single hash
 python weakpass-check.py search 5f4dcc3b5aa765d61d8327deb882cf99
 
 # Search for hashes listed in a file
