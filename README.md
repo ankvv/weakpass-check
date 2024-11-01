@@ -40,20 +40,20 @@ python weakpass-check.py wordlists
 ```
 ## Example
 
-# Search for a specific hash
+### Search for a specific hash
 ```bash
 # Searching for a single hash
 python weakpass-check.py search 5f4dcc3b5aa765d61d8327deb882cf99
 ```
-# Search for hashes listed in a file
+### Search for hashes listed in a file
 ```bash
 python weakpass-check.py search --file hashes.txt
 ```
-# Retrieve hash-password pairs for a prefix
+### Retrieve hash-password pairs for a prefix
 ```bash
 python weakpass-check.py range a1b2c3
 ```
-# List available wordlists
+### List available wordlists
 ```bash
 python weakpass-check.py wordlists
 ```
@@ -66,7 +66,7 @@ The program includes basic error handling for HTTP requests. It will return mean
 500: Server error<br>
 General network errors
 
-### 6. Contributions
+## Contributions
 
 Contributions are welcome! Please fork the repository and submit a pull request.
 
